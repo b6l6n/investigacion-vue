@@ -1,0 +1,38 @@
+[
+    {
+        "titulo": "Pesadilla antes de navidad",
+        "año": 1993,
+        "genero": "musical, animacion"
+    },
+    
+    {
+        "titulo": "El Mago de Oz",
+        "año":1939,
+        "genero":"fantasia, musical"
+    },
+
+    {
+        "titulo": "Halloween",
+        "año": 1978,
+        "genero":"Slasher, Terror"
+    },
+
+    {
+        "titulo": "La Novia Cadaver",
+        "año": 2005,
+        "genero":"musical, animacion"
+    },
+
+    {
+        "titulo": "Mi Vecino Totoro",
+        "año": 1988,
+        "genero": "Animacion, Fantasia"
+    },
+
+    {
+        "titulo": "El Viaje de Chihiro",
+        "año": 2001,
+        "genero": "Animacion, Aventura"
+    }
+   
+]

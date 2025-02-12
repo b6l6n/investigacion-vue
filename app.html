@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de 10 películas favoritas</title>
+   
+</head>
+<body>
+    <div id="app">
+    <h1>Peliculas Favoritas</h1>
+
+    <!--AÑADIR PELIS-->
+    <input v-model="peliNueva.titulo" placeholder="Titulo"/>
+    <input v-model="peliNueva.año" type="number" placeholder="Año"/>
+    <input v-model="peliNueva.genero" placeholder="Genero">
+    <button id="añadirPeli">Añadir pelicula</button>
+
+    <!--LISTA PELIS-->
+    <ul>
+        <li v-for="(peli, index) en pelis" :key="index">
+            <strong>{{Pesadilla Antes de Navidad}}</strong>({{1993}}) - {{Animacion, Musical}}
+        </li>
+    </ul>
+</div>
+
+    <script src=""https://cdn.jsdelivr.net/npm/vue@3.2.47/dist/vue.global.prod.js""></script>
+    <script src="app.js"></script>
+</body>
+</html>
