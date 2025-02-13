@@ -3,8 +3,16 @@ const { isTemplateExpression } = require("typescript");
 const { crearApp, ref } = Vue;
 const app = {
     setup() {
-        const pelis= ref([]); //LISTA DE PELICULAS
-        const peliNueva = ref({titulo:"", año:"", genero:""}); //AÑADIR PELIS NUEVAS
+        const pelis = ref([
+            { titulo: "Pesadilla antes de navidad", año: 1993, genero: "musical, animacion" },
+            { titulo: "El Mago de Oz", año: 1939, genero: "fantasia, musical" },
+            { titulo: "Halloween", año: 1978, genero: "Slasher, Terror" },
+            { titulo: "La Novia Cadaver", año: 2005, genero: "musical, animacion" },
+            { titulo: "Mi Vecino Totoro", año: 1988, genero: "Animacion, Fantasia" },
+            { titulo: "El Viaje de Chihiro", año: 2001, genero: "Animacion, Aventura" }
+        ]);      
+
+        const peliNueva = ref({ titulo: "", año: "", genero: "" });
 
         //FUNCION PARA AÑADIR PELI A LA LISTA
         const añadirPeli = () =>{
@@ -19,9 +27,10 @@ const app = {
             pelis.value.splice(index,1);
         };
 
-        return{
-            pelis, peliNueva, añadirPeli, eliminarPeli
-        };
-    }
-};
-crearApp(app).mount("#app");
+        //IMAGEN
+        const peliImg=(titulo) => {
+            const imgs= {
+                
+            }
+        }
+
